@@ -15,11 +15,11 @@ const productSchema = new mongoose.Schema({
   },
   rating: {
     type: Number,
-    defalut: 4.5,
+    default: 4.5,
   },
   createdAt: {
     type: Date,
-    defalut: Date.now(),
+    default: Date.now(),
   },
   company: {
     type: String,
